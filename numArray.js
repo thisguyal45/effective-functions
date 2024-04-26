@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const isArray = (arr) => Array.isArray(arr);
-console.log(false == '0');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isWeekday = (date) => date.getDay() % 6 !== 0;
