@@ -1,1 +1,1 @@
-const fullName = name || 'buddy';
+function myAPITS(someString: string, someNum: number) { ... };
