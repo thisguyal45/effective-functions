@@ -1,2 +1,1 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-console.log( "A" - "B" + "2");
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
