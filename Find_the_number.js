@@ -1,1 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
