@@ -1,3 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const fullName = name || 'buddy';
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
