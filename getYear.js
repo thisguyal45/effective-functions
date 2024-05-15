@@ -1,1 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
+const repositoryRootPath = path.resolve(__dirname, '..');
+var c = new Counter(); c.add(); c.add(); c.add();
