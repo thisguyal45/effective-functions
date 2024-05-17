@@ -1,2 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-var c = new Counter(); c.add(); c.add(); c.add();
+const merge = Object.assign({}, obj1, obj2);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
