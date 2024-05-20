@@ -1,3 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const goToTop = () => window.scrollTo(0, 0);
