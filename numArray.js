@@ -1,2 +1,2 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-console.log("1 || 2 = "+(1 || 2));
+const randomBoolean = () => Math.random() >= 0.5;
+console.log("0 || 1 = "+(0 || 1));
