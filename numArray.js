@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-console.log("0 || 1 = "+(0 || 1));
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
