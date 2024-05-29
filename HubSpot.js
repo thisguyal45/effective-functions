@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const result = await makeHttpRequest(url);
+const merge = Object.assign({}, obj1, obj2);
+const channelName = getChannelName(channel);
