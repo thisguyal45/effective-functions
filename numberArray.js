@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-console.log(1 +  +"2" + "2");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log(false === '0');
+console.log(+"1" +  "1" + "2");
