@@ -1,2 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
