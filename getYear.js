@@ -1,2 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const lastElement = arr => arr[arr.length - 1];
+const merge = [...new Set([...a, ...b])];
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log("0 || 1 = "+(0 || 1));
