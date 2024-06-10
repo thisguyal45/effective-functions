@@ -1,3 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-console.log("0 || 1 = "+(0 || 1));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
