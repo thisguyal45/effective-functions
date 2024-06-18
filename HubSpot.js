@@ -1,3 +1,3 @@
-const fullName = name || 'buddy';
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isEmptyArray = arr => !arr.length;
+const randomString = () => Math.random().toString(36).slice(2);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
