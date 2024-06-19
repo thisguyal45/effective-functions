@@ -1,2 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(1 +  -"1" + "2");
