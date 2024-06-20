@@ -1,3 +1,2 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 const minNumber = arr => Math.min(...arr);
