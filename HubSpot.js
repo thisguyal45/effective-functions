@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
+var c = new Counter(); c.add(); c.add(); c.add();
 const randomString = () => Math.random().toString(36).slice(2);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
