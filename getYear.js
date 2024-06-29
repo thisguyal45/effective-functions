@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log(1 +  -"1" + "2");
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+var arr3 = "jones".split('');
