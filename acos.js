@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const maxNumber = arr => Math.max(...arr);
