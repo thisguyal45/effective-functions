@@ -1,3 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-function myAPITS(someString: string, someNum: number) { ... };
-const merge = (a, b) => a.concat(b);
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
