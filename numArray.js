@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const randomBoolean = () => Math.random() >= 0.5;
-const merge = Object.assign({}, obj1, obj2);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+var c = new Counter(); c.add(); c.add(); c.add();
