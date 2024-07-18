@@ -1,1 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
