@@ -1,2 +1,1 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
