@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const merge = (a, b) => a.concat(b);
+console.log( "A" - "B" + "2");
+var pattern = {};
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
