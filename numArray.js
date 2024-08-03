@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log("1 && 2 = "+(1 && 2));
-console.log(1 +  +"2" + "2");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isEmptyArray = arr => !arr.length;
