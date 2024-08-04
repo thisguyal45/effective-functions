@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-var pattern = {};
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const allResults = await Promise.all(items.map(async (item) => {}));
+const lastElement = arr => arr[arr.length - 1];
