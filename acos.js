@@ -1,3 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-console.log( "A" - "B" + 2);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const flattenedArray = arr => [].concat(...arr);
+const repositoryRootPath = path.resolve(__dirname, '..');
