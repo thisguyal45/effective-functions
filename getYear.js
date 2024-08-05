@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const getRandomBoolean = () => Math.random() >= 0.5;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = (a, b) => a.concat(b);
+function myAPITS(someString: string, someNum: number) { ... };
